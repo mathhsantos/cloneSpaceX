@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section01 {
+  height: 100vh;
+  background-image: url("../../../img/falcon9/01.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-weight: bold;
+}
+.section01 .header {
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+.section01 .header a {
+  color: white;
+}
+.section01 .title-content {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section01 .title-content h1 {
+  font-family: "Rubik", sans-serif;
+  font-size: 90px;
+  font-weight: 530;
+}
+.section01 .title-content p {
+  font-size: 20px;
+}
+
+.section02 {
+  min-height: 100vh;
+  color: white;
+}
+.section02 .div-numbers {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 40vh;
+  background-color: black;
+}
+.section02 .div-numbers .numbers {
+  text-align: center;
+}
+.section02 .div-numbers .numbers p {
+  font-size: 20px;
+}
+.section02 .div-numbers .numbers h1 {
+  font-size: 90px;
+}
+.section02 .text-content {
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../../../img/falcon9/02.jpg");
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+}
+.section02 .text-content p {
+  font-size: 22px;
+  max-width: 640px;
+  line-height: 50px;
+}
+
+.section03, .section05, .section07, .section08, .section04, .section06 {
+  min-height: 100vh;
+  background-image: url("../../../img/falcon9/03.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.section03 .data-content, .section05 .data-content, .section07 .data-content, .section08 .data-content, .section04 .data-content, .section06 .data-content {
+  padding-top: 13rem;
+  width: 500px;
+  color: white;
+  font-weight: bold;
+}
+.section03 .data-content p, .section05 .data-content p, .section07 .data-content p, .section08 .data-content p, .section04 .data-content p, .section06 .data-content p {
+  margin-bottom: 10px;
+}
+.section03 .data-content .table, .section05 .data-content .table, .section07 .data-content .table, .section08 .data-content .table, .section04 .data-content .table, .section06 .data-content .table {
+  font-weight: 400;
+}
+.section03 .data-content .table td, .section05 .data-content .table td, .section07 .data-content .table td, .section08 .data-content .table td, .section04 .data-content .table td, .section06 .data-content .table td {
+  color: white;
+  background-color: transparent;
+}
+.section03 .data-content .table .data-table, .section05 .data-content .table .data-table, .section07 .data-content .table .data-table, .section08 .data-content .table .data-table, .section04 .data-content .table .data-table, .section06 .data-content .table .data-table {
+  text-align: right;
+}
+
+.section04, .section06 {
+  background-image: url("../../../img/falcon9/04.jpg");
+}
+.section04 .data-content, .section06 .data-content {
+  font-weight: 400;
+}
+
+.section05, .section07, .section08 {
+  background-image: url("../../../img/falcon9/05.jpg");
+}
+.section05 .data-content, .section07 .data-content, .section08 .data-content {
+  font-weight: 400;
+}
+
+.section06 {
+  background-image: url("../../../img/falcon9/06.jpg");
+}
+
+.section07, .section08 {
+  background-image: url("../../../img/falcon9/07.jpg");
+}
+
+.section08 {
+  background-image: url("../../../img/falcon9/08.jpg");
+}
+
+#carouselExampleCaptions .carousel-item {
+  max-height: 100vh;
+}
+#carouselExampleCaptions .carousel-item .img-carousel {
+  height: 100vh;
+}
+#carouselExampleCaptions .carousel-item p {
+  background-color: black;
+}
+
+.section09 {
+  min-height: 85vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section09 .content-end {
+  text-align: center;
+}
+.section09 .content-end a {
+  color: gray;
+  text-decoration: none;
+}
+.section09 .content-end button {
+  padding: 16px;
+  border: 2px solid white;
+  margin-left: 10px;
+}
+
+.footer {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  height: 15vh;
+  font-weight: bold;
+}
+.footer nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  font-size: 12px;
+}
+.footer span {
+  font-size: 16px;
+  color: rgb(53, 53, 53);
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=main-style-falcon9.css.map */

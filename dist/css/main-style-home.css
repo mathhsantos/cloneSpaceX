@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section01 {
+  height: 100vh;
+  background-image: url("../../../img/home/01.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-weight: bold;
+}
+.section01 .header {
+  color: white;
+  font-size: 12px;
+  font-weight: bod;
+}
+.section01 .header a {
+  color: white;
+}
+.section01 .text-content {
+  padding-top: 200px;
+}
+.section01 .text-content button {
+  border: 2px solid white;
+  padding: 15px 35px;
+}
+.section01 .text-content p {
+  font-size: 18px;
+}
+
+.section02, .section04, .section03 {
+  background-image: url("../../../img/home/03.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  font-weight: bold;
+  color: white;
+}
+.section02 button, .section04 button, .section03 button {
+  border: 2px solid white;
+  padding: 15px 35px;
+}
+.section02 h1, .section04 h1, .section03 h1 {
+  max-width: 550px;
+}
+
+.section03 {
+  background-image: url("../../../img/home/02.gif");
+}
+
+.section04 {
+  background-image: url("../../../img/home/04.jpg");
+}
+.section04 h1 {
+  max-width: 650px;
+}
+
+.footer {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  height: 15vh;
+  font-weight: bold;
+}
+.footer nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  font-size: 12px;
+}
+.footer span {
+  font-size: 16px;
+  color: rgb(53, 53, 53);
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=main-style-home.css.map */
