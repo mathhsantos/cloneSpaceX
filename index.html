@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
   <link rel="stylesheet" href="./dist/css/main-style-home.css">
+  <link rel="stylesheet" href="./node_modules/aos/dist/aos.css">
+  <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
   <title>OnebitX</title>
 </head>
 
@@ -34,15 +36,16 @@
         </nav>
       </header>
     </div>
-    <div class="container text-content align-self-center">
+    <div class="container text-content align-self-center" data-aos="fade-up" data-aos-duration="1500">
       <p class="m-0">LANÇAMENTO A CAMINHO</p>
       <h1>MISSÃO EQUIPE-3</h1>
       <button class="btn btn-outline-light mt-5">SAIBA MAIS</button>
+      <p style="text-align: center; margin-top: 30px;"><img src="./img/home/arrowDown.gif" alt="" width="90px"></p>
     </div>
   </section>
 
   <section class="section02 d-flex align-items-center">
-    <div class="container">
+    <div class="container" data-aos="fade-right" data-aos-duration="1500">
       <p class="m-0">MSSÃO CONCLUIDA</p>
       <H1>MISSÃO EQUIPE-2 RETORNOU PARA A TERRA</H1>
       <button class="btn btn-outline-light mt-5">SAIBA MAIS</button>
@@ -50,7 +53,7 @@
   </section>
 
   <section class="section03 d-flex align-items-center">
-    <div class="container">
+    <div class="container" data-aos="fade-down" data-aos-duration="1500">
       <p class="m-0">MISSÃO CONCLUIDA</p>
       <H1>DRAGON RETORNOU PARA A TERRA</H1>
       <button class="btn btn-outline-light mt-5">SAIBA MAIS</button>
@@ -58,7 +61,7 @@
   </section>
 
   <section class="section04 d-flex align-items-center">
-    <div class="container">
+    <div class="container" data-aos="fade-down-right" data-aos-duration="1500">
       <H1>STARSHIP POUSA ASTRONAUTAS DA NASA NA LUA</H1>
       <button class="btn btn-outline-light mt-5">SAIBA MAIS</button>
     </div>
@@ -76,6 +79,10 @@
   </footer>
 
   <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="./node_modules/aos/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

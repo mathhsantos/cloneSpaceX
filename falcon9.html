@@ -6,7 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
   <link rel="stylesheet" href="./dist/css/main-style-falcon9.css">
-  <title>oneBit - Falcon 9</title>
+  <link rel="stylesheet" href="./node_modules/aos/dist/aos.css">
+  <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+  <title>oneBitX - Falcon 9</title>
 </head>
 
 <body>
@@ -35,7 +37,7 @@
         </nav>
       </header>
     </div>
-    <div class="container title-content">
+    <div class="container title-content" data-aos="fade-up" data-aos-duration="1500">
       <h1>FALCON 9</h1>
       <p>PRIMEIRA CLASSE DE FOGUETES DE ORBITA CAPAZ DE VOLTAR</p>
     </div>
@@ -43,21 +45,21 @@
 
   <section class="section02">
     <div class="container-fluid div-numbers">
-      <div class="numbers">
+      <div class="numbers" data-aos="flip-up" data-aos-duration="1500">
         <h1>126</h1>
         <p>LANÇAMENTOS TOTAIS</p>
       </div>
-      <div class="numbers">
+      <div class="numbers" data-aos="flip-right" data-aos-duration="1500">
         <h1>86</h1>
         <p>DESEMBARQUES TOTAIS</p>
       </div>
-      <div class="numbers">
+      <div class="numbers" data-aos="flip-right" data-aos-duration="1500">
         <h1>68</h1>
         <p>FOQUETES RECUPERADOS</p>
       </div>
     </div>
     <div class="container-fluid text-content">
-      <div class="container">
+      <div class="container" data-aos="fade-right" data-aos-duration="1500">
         <p>
           O Falcon 9 é um foguete reutilizável de dois estágios projetado e fabricado pela SpaceX para o
           transporte confiável e seguro de pessoas e cargas úteis para a órbita da Terra e além. Falcon 9 é o
@@ -78,28 +80,28 @@
               <table class="table">
                 <tbody>
                   <tr>
-                    <td>ALTURA</td>
-                    <td class="data-table"><span>70 m/ 229.6 f</span></td>
+                    <td data-aos="fade-right" data-aos-duration="1500">ALTURA</td>
+                    <td data-aos="fade-right" class="data-table" data-aos-duration="1500"><span>70 m/ 229.6 f</span></td>
                   </tr>
                   <tr>
-                    <td>DIAMETRO</td>
-                    <td class="data-table"><span>3.7M / 12 ft</span></td>
+                    <td data-aos="fade-right" data-aos-duration="1500">DIAMETRO</td>
+                    <td data-aos="fade-right" data-aos-duration="1500" class="data-table"><span>3.7M / 12 ft</span></td>
                   </tr>
                   <tr>
-                    <td>MASSA</td>
-                    <td class="data-table"><span>549.054 kg / 1,207,920 lb</span></td>
+                    <td data-aos="fade-right" data-aos-duration="1500">MASSA</td>
+                    <td data-aos="fade-right" data-aos-duration="1500" class="data-table"><span>549.054 kg / 1,207,920 lb</span></td>
                   </tr>
                   <tr>
-                    <td>CARGA MÁXIMA PARA LEO</td>
-                    <td class="data-table"><span>22,800 kg / 50,265 lb</span></td>
+                    <td data-aos="fade-right" data-aos-duration="1500">CARGA MÁXIMA PARA LEO</td>
+                    <td data-aos="fade-right" data-aos-duration="1500" class="data-table"><span>22,800 kg / 50,265 lb</span></td>
                   </tr>
                   <tr>
-                    <td>CARGA MAXIMA PARA GTO</td>
-                    <td class="data-table"><span>8,300 kg / 18,300 lb</span></td>
+                    <td data-aos="fade-right" data-aos-duration="1500">CARGA MAXIMA PARA GTO</td>
+                    <td data-aos="fade-right" data-aos-duration="1500" class="data-table"><span>8,300 kg / 18,300 lb</span></td>
                   </tr>
                   <tr>
-                    <td>CARGA MÁXIMA PARA MARTE</td>
-                    <td class="data-table"><span>4,020 kg / 8,860 lb</span></td>
+                    <td data-aos="fade-right" data-aos-duration="1500">CARGA MÁXIMA PARA MARTE</td>
+                    <td data-aos="fade-right" data-aos-duration="1500" class="data-table"><span>4,020 kg / 8,860 lb</span></td>
                   </tr>
                 </tbody>
               </table>
@@ -212,7 +214,7 @@
     </button>
   </div>
   <section class="section08">
-    <div class="container">
+    <div class="container" data-aos="fade-right" data-aos-duration="1700">
       <div class="data-content ms-5">
         <p>FALCON 9</p>
         <h3>MERLIN</h3>
@@ -302,9 +304,9 @@
   </div>
   <section class="container-fluid section09">
     <div class="content-end">
-      <p>Para mais informações sobre os serviçoes entre em contato com <a href="">onebitcode@gmail.com</a></p>
-      <button class="btn btn-outline-light">BAIXAR GUIA DO USUÁRIO</button>
-      <button class="btn btn-outline-light">CAPACIDADES E SERVIÇOS</button>
+      <p data-aos="fade-right" data-aos-duration="1500">Para mais informações sobre os serviçoes entre em contato com <a href="">onebitcode@gmail.com</a></p>
+      <button data-aos="flip-left" data-aos-duration="1500" class="btn btn-outline-light">BAIXAR GUIA DO USUÁRIO</button>
+      <button data-aos="flip-up" data-aos-duration="1500"class="btn btn-outline-light">CAPACIDADES E SERVIÇOS</button>
     </div>
   </section>
   <footer class="footer container-fluid">
@@ -318,6 +320,10 @@
     </div>
   </footer>
   <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="./node_modules/aos/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
